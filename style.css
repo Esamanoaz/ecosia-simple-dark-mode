@@ -1,0 +1,49 @@
+.above-fold-section,
+.search-form,
+.search-section-tree-counter,
+header,
+footer,
+.layout__content,
+.main,
+.mainline,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    background-color: #121 !important;
+    color: #EEE !important;
+}
+
+a,
+.main-footer__link {
+    color: #E44 !important;
+}
+
+a:not(.tab__link, .logo):visited {
+    color: #E4A !important;
+}
+
+.result__link {
+    color: #A55 !important;
+}
+
+button,
+.personal-counter__text {
+    background-color: #008009 !important;
+    color: #EEE !important;
+}
+
+.search-form__input[data-v-f9b8ea00],
+input {
+    background-color: #121 !important;
+}
+
+:root {
+    --color-text-secondary: #EEE !important;
+    --color-text-primary: #EEE !important;
+}

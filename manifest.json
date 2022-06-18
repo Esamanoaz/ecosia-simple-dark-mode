@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Simple Dark Mode Ecosia",
+    "version": "1.0",
+    "description": "A simple dark mode extension for the ecosia search engine.",
+   
+    "content_scripts": [{
+      "css": ["style.css"],
+      "matches": ["https://*.ecosia.org/*"]
+    }]
+   
+  }
