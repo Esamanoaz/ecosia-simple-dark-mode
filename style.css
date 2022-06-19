@@ -2,12 +2,12 @@
 .search-form,
 .search-section-tree-counter,
 .search-form__input[data-v-f9b8ea00],
-input,
-header,
-footer,
 .layout__content,
 .main,
 .mainline,
+input,
+header,
+footer,
 div,
 h1,
 h2:not(.result-title__heading),
@@ -16,7 +16,7 @@ h4,
 h5,
 h6,
 p {
-    background-color: #121 !important;
+    background-color: #0c170c !important;
     color: #EEE !important;
 }
 
@@ -28,7 +28,9 @@ button,
 }
 
 a,
-.main-footer__link {
+.main-footer__link,
+.index-header__logo,
+.above-fold-section__logo {
     color: #E44 !important;
 }
 
@@ -38,4 +40,8 @@ a:not(.tab__link, .logo):visited {
 
 .result__source {
     color:#C77 !important;
+}
+
+::selection {
+    color: #0c170c;
 }
