@@ -16,7 +16,7 @@ h4,
 h5,
 h6,
 p {
-    background-color: #0c170c !important;
+    background-color: #000c08 !important;
     color: #EEE !important;
 }
 
@@ -43,5 +43,5 @@ a:not(.tab__link, .logo):visited {
 }
 
 ::selection {
-    color: #0c170c;
+    color: #000c08;
 }
