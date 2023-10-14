@@ -16,5 +16,9 @@
       "css": ["style.css"],
       "matches": ["https://*.ecosia.org/*"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "images/dark-forest-theme-icon-48.png",
+    "128": "images/dark-forest-theme-icon-128.png"
+  }
 }
